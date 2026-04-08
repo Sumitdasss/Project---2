@@ -8,10 +8,11 @@ import { Fttore } from './Componants/Fttore'
 import Cart from './Componants/Cart'
 
 function App() {
-  
-
+ 
   return (
+
     <>
+    
     <Heading/>
     <Routes>
     <Route path='/' element={<Product/>}/>
@@ -19,6 +20,7 @@ function App() {
     
     </Routes>
     <Fttore/>
+    
     </>
   )
 }

@@ -2,12 +2,15 @@ import React, {  useState } from 'react'
 import { HiBars3BottomLeft } from 'react-icons/hi2'
 import { selectTotalItem } from '../features/counter/counterSlice'
 import { useSelector } from 'react-redux'
+
 import { FaCaretDown, FaSearch, FaShoppingCart, FaUser } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import Navbar from './Navbar'
+import { IoMoonOutline, IoSunnyOutline } from 'react-icons/io5'
 
 const Heading = () => {
 const totalItem = useSelector(selectTotalItem);
+
  
 
   
@@ -25,7 +28,7 @@ const totalItem = useSelector(selectTotalItem);
         
           <div className="relative">
             <div 
-              className="flex items-center px-2 py-2 bg-white gap-1 cursor-pointer" 
+              className="flex items-center gap-1 px-2 py-2 bg-white cursor-pointer" 
               onClick={() => setIsOpen2(!isOpen2)}
             >
               <HiBars3BottomLeft className="text-[20px]" />
@@ -56,7 +59,7 @@ const totalItem = useSelector(selectTotalItem);
           
          
 
-          {/* User & Cart */}
+          
           <div className="flex items-center gap-8 text-[#262626]">
             <div className="relative">
               <div className="flex items-center gap-1 cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
@@ -79,6 +82,9 @@ const totalItem = useSelector(selectTotalItem);
                 {totalItem}
               </span>
             </Link>
+
+
+
           </div>
  </div>
         </div>
