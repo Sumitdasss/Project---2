@@ -4,6 +4,9 @@ import { createSlice } from '@reduxjs/toolkit';
 const initialState = {
   items: [],
   darkMode: false,
+  build: {},
+  selectedCategory: "all",
+  
 };
 
 const cartSlice = createSlice({
@@ -39,15 +42,16 @@ const cartSlice = createSlice({
         product.quantity -= 1;
       }
     },
-
-    clearCart: (state) => {
-      state.items = [];
+setCategory:(state, action) => {
+      state.selectedCategory = action.payload;
     },
 
-  
-    toggleDarkMode: (state) => {
-      state.darkMode = !state.darkMode;
+    addToBuild: (state, action) => {
+      const product = action.payload;
+   
+      state.build[product.category] = product;
     },
+   
   },
 });
 
@@ -57,8 +61,8 @@ export const {
   removeFromCart, 
   increaseQuantity, 
   decreaseQuantity, 
-  clearCart, 
-  toggleDarkMode 
+ setCategory,
+ addToBuild
 } = cartSlice.actions;
 
 export default cartSlice.reducer;
@@ -73,5 +77,14 @@ export const selectTotalItem = (state) =>
 export const selectTotalPrice = (state) => 
   state.cart.items.reduce((total, product) => total + product.quantity * product.price, 0);
 
-
-export const selectIsDarkMode = (state) => state.cart.darkMode;
+export const selectFilteredProducts = (state, allProducts) => {
+  const category = state.cart.selectedCategory;
+  if (category === "all") return allProducts;
+  return allProducts.filter(p => p.category === category);
+};
+export const selectCategory = (state) => state.cart.selectedCategory;
+export const selectBuild = (state) => state.cart.build;
+export const selectBuildTotalPrice = (state) => {
+  const build = state.cart.build || {};
+  return Object.values(build).reduce((total, item) => total + (item.price || 0), 0);
+};

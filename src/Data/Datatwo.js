@@ -5,7 +5,7 @@ export const Data3 = [
       title: "Belia Sectional Sofa",
       description:
         "The Belia Sectional Sofa is a stylish and comfortable seating option for your living room. With its modern design and high-quality materials, it provides both aesthetics and functionality.",
-      category: "furniture",
+      category: "Processor",
       price: 199.99,
       discountPercentage: 15.0,
 
@@ -62,7 +62,7 @@ export const Data3 = [
       title: "Daphne Sofa Chaise",
       description:
         "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
-      category: "furniture",
+      category: "Processor",
       price: 3445.99,
       discountPercentage: 18.19,
       rating: 2.86,
@@ -118,7 +118,7 @@ export const Data3 = [
       title: "Rivet Faux Leather Three-Seat Sofa",
       description:
         "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
-      category: "furniture",
+      category: "Processor",
       price: 1059.00,
       discountPercentage: 9.84,
       rating: 4.64,
@@ -174,7 +174,7 @@ export const Data3 = [
       title: "Lovina Seven-Piece Sectional",
       description:
         "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
-      category: "furniture",
+      category: "Processor",
       price: 12.99,
       discountPercentage: 12.16,
       rating: 34300,
@@ -230,7 +230,7 @@ export const Data3 = [
       title: "Diane Sofa",
       description:
         "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
-      category: "furniture",
+      category: "Processor",
       price: 1698.00,
       discountPercentage: 11.44,
       rating: 4.32,
@@ -286,7 +286,7 @@ export const Data3 = [
       title: "Diane Sofa",
       description:
         "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
-      category: "furniture",
+      category: "Processor",
       price: 1698.00,
       discountPercentage: 1.89,
       rating: 4.37,
@@ -344,7 +344,7 @@ export const Data3 = [
       title: "Andreco Corduroy U-Shaped Sectional",
       description:
         "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
-      category: "furniture",
+      category: "Processor",
       price: 919.99,
       discountPercentage: 16.51,
       rating: 4.26,
@@ -400,7 +400,7 @@ export const Data3 = [
       title: "Gaming Standing Desk with RGB Lighting ",
       description:
         "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
-      category: "furniture",
+      category: "Motherboard",
       price: 299,
       discountPercentage: 14.72,
       rating: 3.8,
@@ -456,7 +456,7 @@ export const Data3 = [
       title: "Bestier 61 Inch Gaming Desk with RGB LED Light",
       description:
         "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
-      category: "furniture",
+      category: "Motherboard",
       price: 115.99,
       discountPercentage: 0.62,
       rating: 3.96,
@@ -512,7 +512,7 @@ export const Data3 = [
       title: "GTRACING Gaming Desk",
       description:
         "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
-      category: "furniture",
+      category: "Motherboard",
       price: 79.99,
       discountPercentage: 14.39,
       rating: 2.74,
@@ -568,7 +568,7 @@ export const Data3 = [
       title: "Stark Light Grey Fabric Sofa with Reversible Chaise",
       description:
         "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
-      category: "furniture",
+      category: "Motherboard",
       price: 1899.99,
       discountPercentage: 8.57,
       rating: 4.77,
@@ -624,7 +624,7 @@ export const Data3 = [
       title: "Modular Washable 3-Seater Sectional in Ash | Deluxe+ Seat | Cloud Pillow",
       description:
         "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
-      category: "furniture",
+      category: "Motherboard",
       price: 2499.99,
       discountPercentage: 14.4,
       rating: 3.92,
@@ -680,7 +680,7 @@ export const Data3 = [
       title: "Caden Solid Wood Platform Bed with Adjustable Headboard, Mid-Century Modern",
       description:
         "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.",
-      category: "furniture",
+      category: "RAM",
       price: 299.99,
       discountPercentage: 19.09,
       rating: 2.87,
@@ -736,7 +736,7 @@ export const Data3 = [
       title: "Knoll Saarinen Executive Conference Chair",
       description:
         "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
-      category: "furniture",
+      category: "RAM",
       price: 499.99,
       discountPercentage: 2.01,
       rating: 4.88,
@@ -794,7 +794,7 @@ export const Data3 = [
       title: "Wooden Bathroom Sink With Mirror",
       description:
         "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
-      category: "furniture",
+      category: "RAM",
       price: 799.99,
       discountPercentage: 8.8,
       rating: 3.59,
@@ -852,7 +852,7 @@ export const Data3 = [
       title: "Apple",
       description:
         "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
-      category: "groceries",
+      category: "RAM",
       price: 1.99,
       discountPercentage: 12.62,
       rating: 4.19,
